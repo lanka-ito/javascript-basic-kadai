@@ -5,5 +5,8 @@ let bodyWeight = 68;
 let personalHeight = 1.7;
 
 // 計算式
-console.log(bodyWeight / (personalHeight * personalHeight));
+let bmi = bodyWeight / (personalHeight * personalHeight);
+
+// 出力
+console.log(bmi);
 
